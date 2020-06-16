@@ -18,7 +18,6 @@ bool enQueue(struct Queue* queue, void* value)
         queue->values[queue->size++] = value;
         return false;
     }
-
 }
 
 void* deQueue(struct Queue* queue)
