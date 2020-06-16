@@ -2,8 +2,7 @@
 Implementation of a Queue
 
 
-#Usage
-
+# Usage
 
 struct Queue queue;
 
@@ -11,7 +10,10 @@ struct Queue queue;
 intialize(&queue, 10);
 
 
-enQueue(&queue, &test1)
+struct something s;
 
 
-enQueue(&queue, &test2);
+enQueue(&queue, &s)
+
+
+struct something* sp = (struct something*)deQueue(&queue)
